@@ -1,0 +1,326 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Neucha', cursive;
+    margin: 0;
+}
+header{
+    background: rgb(29, 7, 7);
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+a{
+    color: white;
+}
+h1{
+    font-size: 130px;
+    font-family: 'Cinzel', serif;
+    opacity: 0;
+}
+h2{
+    font-size: 40px;
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #D3130A;
+}
+h3{
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #D3130A;
+}
+.drHero{
+    display: flex;
+    align-items: center;
+}
+.drHero_text{
+    background: url(img/poloski-01.png) no-repeat center /cover;
+    background-size: 400px 400px;
+}
+.logo_img{
+    margin-top: 50px;
+}
+.menu{
+    display: flex;
+}
+.nav{
+    margin-top: 50px;
+    text-transform: uppercase;
+    align-items: center;
+    padding-bottom: 50px;
+}
+header ul{
+    justify-content: space-between;
+}
+header li{
+    font-size: 30px;
+    display: block;
+}
+.preoritet{
+    width: 260px;
+    font-size: 20px;
+    box-shadow: 2px 2px 20px 0px #D3130A;
+    padding: 20px;
+    transition: 0.2s ease;
+}
+.preoritet:hover{
+    background: rgba(255, 255, 255, 0.486);
+    color: black;
+    transition: 0.4s ease;
+}
+.preorities{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    text-align: center;
+}
+section{
+    margin-top: 80px;
+}
+.portfolio_img{
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px 0px white;
+    transition: 0.2s ease;
+    opacity: 0;
+}
+
+.portfolio_img:hover{
+    box-shadow: 2px 2px 25px 0px white;
+    transition: 0.4s ease;
+}
+.portfolio2{
+    justify-content: space-between;
+    display: flex;
+}
+#img_dg{
+    border: white 2px solid;
+}
+#img_items{
+    border: 2px solid #D3130A;
+    box-shadow: 2px 4px 10px 0px #D3130A;
+    transition: 0.2s ease;
+}
+#img_items:hover{
+    box-shadow: 4px 4px 25px 0px #D3130A;
+    transition: 0.4s ease;
+}
+#img_logo{
+    border: solid 2px white;
+    transition: 0.2s ease;
+}
+.footer{
+    margin-top: 100px;
+}
+footer li{
+    display: block;
+    font-size: 30px;
+}
+footer .nav{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer ul{
+    justify-content: space-between;
+}
+footer{
+    background: rgb(29, 7, 7);
+}
+.nav,.menu{
+    margin-left: 0;
+    padding-left: 0;
+}
+@media screen and (max-width: 1023px){
+    .container{
+        width: 740px;
+    }
+   
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 25px;
+        margin-top: -90px;
+    }
+    .logo_img{
+        width: 300px;
+        height: 300px;
+    }
+    header li{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .preoritet{
+        width: 180px;
+    }
+    footer .nav{
+        margin-top: 0;
+    }
+    section{
+        margin-top: 50px;
+    }
+    .portfolio_img{
+        width: 200px;
+        height: 200px;
+    }
+    .portfolio2:first-child .portfolio_img:first-child{
+        width: 300px;
+    }
+    .portfolio2:last-child .portfolio_img:last-child{
+        width: 300px;
+    }
+    footer .nav{
+        padding: 20px 0;
+    }
+    .footer{
+        padding-top: 0;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 767px){
+    .container{
+        width: 410px;
+    }
+    .drHero{
+        display: block;
+    }   
+    h1{
+        font-size: 94px;
+    }
+    .drHero{
+        margin-top: -65px;
+        margin-bottom: 0;
+    }
+    h2{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 25px;
+        margin-top: -80px;
+    }
+    .logo_img{
+        width: 150px;
+        height: 150px;
+        margin-left: 40px;
+    }
+    header li{
+        font-size: 15px;
+        line-height: 30px;
+        display: list-item;
+    }
+    h3{
+        font-size: 17px;
+    }
+    .menu{
+        display: block;
+    }
+    header .nav{
+        float: right;
+        margin-top: -160px; 
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+    header{
+        padding-bottom: 50px;
+    }
+    .preorities{
+        display: block;
+    }
+    .preoritet{
+        width: 368px;
+        margin-bottom: 30px;
+        padding: 5px 20px;
+    }
+    .img_why{
+        height: 50px;
+        width: 50px;
+    }
+    p{
+        font-size: 14px;
+    }
+    footer .menu{
+        display: flex;
+    }
+    footer li{
+        font-size: 13px;
+    }
+    .contact_img{
+        height: 30px;
+        width: 30px;
+    }
+    .portfolio2{
+        display: block;
+    }
+    .portfolio_img{
+        width: 160px;
+        height: 160px;
+        margin-left: 25px;
+    }
+    .portfolio2:first-child .portfolio_img:first-child{
+        width: 300px;
+        margin-left: 45px;
+    }
+    .portfolio2:last-child .portfolio_img:last-child{
+        width: 300px;
+        margin-left: 45px;
+    }
+    footer li:last-child{
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 424px){
+    header{
+        padding-top: 10px;
+    }
+    .container{
+        width: 318px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 15px;
+        margin-top: -70px;
+    }
+    .logo_img{
+        margin-left: 0;
+    }
+    header .nav{
+        margin-right: 0;
+    }
+    section{
+        margin-top: 0;
+    }
+    header .nav{
+        padding-bottom: -100;
+    }
+    .preoritet{
+        width: 318px;
+        font-size: 10px;
+        padding: 5px 0px;
+    }
+    .portfolio_img{
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+    }
+    .portfolio2:first-child .portfolio_img:first-child{
+        height: 200px;
+        margin-left: 5px;
+    }
+    .portfolio2:last-child .portfolio_img:last-child{
+        height: 200px;
+        margin-left: 5px;
+    }
+    footer .nav{
+        margin-top: 0;
+    }
+}
