@@ -4,9 +4,6 @@ body{
     font-family: 'Neucha', cursive;
     margin: 0;
 }
-header{
-    background: rgb(29, 7, 7);
-}
 .container{
     width: 980px;
     margin: 0 auto;
@@ -128,9 +125,6 @@ footer .nav{
 }
 footer ul{
     justify-content: space-between;
-}
-footer{
-    background: rgb(29, 7, 7);
 }
 .nav,.menu{
     margin-left: 0;
