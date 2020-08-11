@@ -28,7 +28,7 @@ setTimeout(() => {
     doAnimate(h1,3000)
 }, 500);
 
-const intervalOpacityImages = setInterval(() => {if(imges[0].getBoundingClientRect().y < 600){
+const intervalOpacityImages = setInterval(() => {if(imges[0].getBoundingClientRect().y < 400){
     for(let i = 0;i < imges.length; i++){
         setTimeout(() => {doAnimate(imges[i],1000)},(i * 300))
         if(i === imges.length-1){clearInterval(intervalOpacityImages)}
