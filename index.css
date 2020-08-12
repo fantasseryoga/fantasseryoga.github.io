@@ -4,6 +4,9 @@ body{
     font-family: 'Neucha', cursive;
     margin: 0;
 }
+header{
+    background: rgb(29, 7, 7);
+}
 .container{
     width: 980px;
     margin: 0 auto;
@@ -126,6 +129,9 @@ footer .nav{
 footer ul{
     justify-content: space-between;
 }
+footer{
+    background: rgb(29, 7, 7);
+}
 .nav,.menu{
     margin-left: 0;
     padding-left: 0;
@@ -162,14 +168,11 @@ footer ul{
         margin-top: 50px;
     }
     .portfolio_img{
-        width: 200px;
-        height: 200px;
-    }
-    .portfolio2:first-child .portfolio_img:first-child{
-        width: 300px;
+        width: 170px;
+        height: 170px;
     }
     .portfolio2:last-child .portfolio_img:last-child{
-        width: 300px;
+        width: 350px;
     }
     footer .nav{
         padding: 20px 0;
@@ -258,10 +261,6 @@ footer ul{
         height: 160px;
         margin-left: 25px;
     }
-    .portfolio2:first-child .portfolio_img:first-child{
-        width: 300px;
-        margin-left: 45px;
-    }
     .portfolio2:last-child .portfolio_img:last-child{
         width: 300px;
         margin-left: 45px;
@@ -304,10 +303,6 @@ footer ul{
     .portfolio_img{
         width: 300px;
         height: 300px;
-        margin-left: 5px;
-    }
-    .portfolio2:first-child .portfolio_img:first-child{
-        height: 200px;
         margin-left: 5px;
     }
     .portfolio2:last-child .portfolio_img:last-child{
