@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/fantasseryoga.github.io/static/css/main.c4ecb8ea.css",
-    "main.js": "/fantasseryoga.github.io/static/js/main.0b7d9b5a.js",
-    "static/css/109.0aa515fd.chunk.css": "/fantasseryoga.github.io/static/css/109.0aa515fd.chunk.css",
-    "static/js/109.95b32230.chunk.js": "/fantasseryoga.github.io/static/js/109.95b32230.chunk.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/fantasseryoga.github.io/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/fantasseryoga.github.io/index.html",
-    "main.c4ecb8ea.css.map": "/fantasseryoga.github.io/static/css/main.c4ecb8ea.css.map",
-    "main.0b7d9b5a.js.map": "/fantasseryoga.github.io/static/js/main.0b7d9b5a.js.map",
-    "109.0aa515fd.chunk.css.map": "/fantasseryoga.github.io/static/css/109.0aa515fd.chunk.css.map",
-    "109.95b32230.chunk.js.map": "/fantasseryoga.github.io/static/js/109.95b32230.chunk.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/fantasseryoga.github.io/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/static/css/main.c4ecb8ea.css",
+    "main.js": "/static/js/main.890a7241.js",
+    "static/css/109.0aa515fd.chunk.css": "/static/css/109.0aa515fd.chunk.css",
+    "static/js/109.95b32230.chunk.js": "/static/js/109.95b32230.chunk.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/index.html",
+    "main.c4ecb8ea.css.map": "/static/css/main.c4ecb8ea.css.map",
+    "main.890a7241.js.map": "/static/js/main.890a7241.js.map",
+    "109.0aa515fd.chunk.css.map": "/static/css/109.0aa515fd.chunk.css.map",
+    "109.95b32230.chunk.js.map": "/static/js/109.95b32230.chunk.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4ecb8ea.css",
-    "static/js/main.0b7d9b5a.js"
+    "static/js/main.890a7241.js"
   ]
 }
